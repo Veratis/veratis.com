@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -69,7 +68,7 @@ export default function VeratisPage() {
         <p className="max-w-3xl">
           Join a team of thinkers, doers, and changemakers. We’re always looking for talent driven by curiosity and purpose.
         </p>
-        <button className="mt-4 bg-black text-white px-4 py-2 rounded">Explore Opportunities</button>
+        <Button className="mt-4">Explore Opportunities</Button>
       </section>
 
       <footer className="p-6 text-center text-sm text-gray-500 bg-white border-t">
